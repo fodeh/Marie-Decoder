@@ -1,0 +1,22 @@
+	org	100
+	Load	x
+	Store	y
+	Subt	One
+	Unused	y
+	AddI	x
+	Add	One
+	Skipcond	000	
+	Jump	
+	Jns	x
+	Input	
+	Output	
+	Clear	
+	JumpI	
+	LoadI	x
+	StoreI	x
+	Halt	 
+x,	Hex	9
+y,	Hex	0
+z,	Dec	5
+One,	Dec	1
+ 	 
